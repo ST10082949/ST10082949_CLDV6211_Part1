@@ -1,0 +1,13 @@
+﻿h1 {
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+p {
+    align-content: center;
+    font-family: Arial;
+    font-size: 20px;
+}

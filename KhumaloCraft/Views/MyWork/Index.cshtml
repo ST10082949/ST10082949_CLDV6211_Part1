@@ -1,0 +1,45 @@
+﻿@model IEnumerable<KhumaloCraft.Models.Products>
+
+
+<link rel="stylesheet" href="Index.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<h1>Global Craft Products</h1>
+<br/>
+<p class=" para">Explore our diverse collection of handcrafted products from artisans around the world. 
+    From intricate pottery and textiles to stunning jewelry and home decor, each piece tells a story of craftsmanship and tradition.
+    Discover the beauty and artistry of handmade products that are made with care and attention to detail. With a variety of styles, materials, and techniques,
+    our craft showcase offers something for every taste and preference. Support artisans and shop unique, one-of-a-kind creations at KhumaloCraft Emporium.</p>
+
+    <div class="row">
+    @foreach (var product in Model)
+            {
+   
+    <div class="col-md-4">
+        <div class="card">
+            <img class="card-img-top" src="@product.ImgUrl" alt="@product.Name">
+            <div class="card-body">
+                <h4 class="card-title">@product.Name </h4>
+                    <p class="card-text">@product.ProductName</p>
+                    <p class="card-text">@product.Country</p>
+                <p class="card-text">@product.Description</p>
+                    <p class="card-text">Price: @product.Price</p>
+                    <a href="/MyWork/ShoppingCart">
+                        <i style="font-size:24px" class="fa">&#xf067;</i>
+                    </a>   
+
+            </div>
+        </div>
+    </div>
+      }
+</div>
+
+<br/>
+
+
+
+
+
+
+
+                     

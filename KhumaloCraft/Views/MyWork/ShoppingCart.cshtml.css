@@ -1,0 +1,22 @@
+﻿h1 {
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+p {
+    
+    font-family: Arial;
+    
+}
+
+button {
+    background-color: beige;
+    border: none;
+}
+
+    button:hover {
+        background-color: palegreen;
+    }
