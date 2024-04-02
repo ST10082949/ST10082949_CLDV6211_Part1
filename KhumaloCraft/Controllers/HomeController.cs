@@ -26,11 +26,7 @@ namespace KhumaloCraft.Controllers
 
        
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+       
         public IActionResult ContactUs()
         {
             return View();
